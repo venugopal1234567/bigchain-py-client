@@ -6,3 +6,9 @@ virtualenv --version
 
 virtualenv b-py-client
 ```
+
+### Run in docker
+```
+docker build -t bc-py-client .
+docker run -p 8080:80  bc-py-client:latest
+```
