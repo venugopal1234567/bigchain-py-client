@@ -1,0 +1,56 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "bigchain-client",
+    "dateExported": "2023-04-19T13:40:27.725Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fc372fd6-249b-47de-88be-e9501fd9a728",
+            "colId": "04f2c3cf-2a50-4fe5-9ad7-9165664b2482",
+            "containerId": "",
+            "name": "Get key pair",
+            "url": "http://127.0.0.1:8080/get_seed",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-18T14:32:30.750Z",
+            "modified": "2023-04-18T15:31:33.237Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4f665e91-17c1-4424-82f1-33007b6e7c97",
+            "colId": "04f2c3cf-2a50-4fe5-9ad7-9165664b2482",
+            "containerId": "",
+            "name": "Get transaction",
+            "url": "http://127.0.0.1:8000/get_transaction/6c17aafab4b66532055c225b3b50c29610cc440aa6324e0992d4dc09993bdaa2",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-04-18T15:14:27.608Z",
+            "modified": "2023-04-18T15:15:09.574Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c6ccda5b-440d-4463-930f-71614487a18d",
+            "colId": "04f2c3cf-2a50-4fe5-9ad7-9165664b2482",
+            "containerId": "",
+            "name": "Create Transaction",
+            "url": "http://127.0.0.1:8000/create_transaction",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-18T14:56:47.502Z",
+            "modified": "2023-04-18T15:11:05.780Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"seed\": \"54fece87e3c27a0369746a3599579f82f4eac92048bf99e32daed2ef75bc9e8f\",\n  \"asset\": {\n    \"data\": {\n      \"bees\": \"knees123473\"\n    }\n  },\n  \"metaData\": {\n    \"bees\": \"knees1234\"\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
