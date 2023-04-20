@@ -13,7 +13,7 @@ class CreateTransaction(BaseModel):
 
 app = FastAPI()
 
-bdb_root_url = 'http://localhost:9984'
+bdb_root_url = 'http://bigchaindb-bigchaindb-1:9984'
 bdb = BigchainDB(bdb_root_url)
 
 @app.get("/get_seed")

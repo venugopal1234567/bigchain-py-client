@@ -7,6 +7,11 @@ virtualenv --version
 virtualenv b-py-client
 ```
 
+### To run server 
+```
+uvicorn main:app
+```
+
 ### Run in docker
 ```
 docker build -t bc-py-client .
